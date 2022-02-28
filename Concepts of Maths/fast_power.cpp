@@ -4,7 +4,7 @@ using namespace std;
 int FastPower(int a,int b){
     int result=1;
     while(b>0){
-        if((b&1)!=0){
+        if((b&1)){
             result=result*a;
         }
         a=a*a;

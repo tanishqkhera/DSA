@@ -3,7 +3,7 @@
 using namespace std;
 //for a>b gcd(a,b)=gcd(a,a%b)
 int gcd(int a,int b){
-    if(b==0){
+    if(!b){
         return a;
     }
     else{

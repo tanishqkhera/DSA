@@ -1,4 +1,3 @@
-#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 class node{
@@ -97,8 +96,6 @@ int main(){
     insertAtTail(head,3);
     insertAtHead(head,4);
     insertAtTail(head,5);
-    deleteion(head,3);
-    deleteAtHead(head);
     display(head);
     node* newhead=reverse(head);
     display(newhead);
